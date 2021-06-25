@@ -1,0 +1,44 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .btn{
+    border-collapse: collapse;
+    padding-right: 50px;
+    color:white;
+    background-color: cornflowerblue;
+    padding: 10px 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+
+}
+.row {
+  gap:5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  color:azure;
+  text-align: center;
+  background-color: lightseagreen;
+  padding:20px;
+}
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  background-color:rgb(47, 49, 43);
+}
